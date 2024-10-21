@@ -1,0 +1,7 @@
+# _config.yml
+theme: minima
+markdown: kramdown
+
+# Optional settings
+title: Your Site Title
+description: A short description of your site.
