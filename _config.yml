@@ -5,3 +5,13 @@ theme: minima
 # Optional settings
 title: Your Site Title
 description: A short description of your site.
+
+include:
+  - _includes
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "node_modules"]
+
+# Plugins required for GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
